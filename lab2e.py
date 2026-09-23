@@ -26,7 +26,7 @@ print(sys.argv[0]) # prints the first argument, it is always the name of script.
 print(sys.argv[1]) # prints the second argument .
 print(sys.argv[2]) # prints the third argument.
 '''
-print(len(sys.argv)) # tells us the number of command line arguments the user provides from terminal.
+# print(len(sys.argv)) # tells us the number of command line arguments the user provides from terminal.
 
 if len(sys.argv) == 1:
     print('This script requires exactly two arguments. No arguments were provided!')
